@@ -1,0 +1,241 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #faebd7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.B-ani {
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-image: url("asset/1.png");
+  animation-name: moveBackground;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-duration: 20s;
+  opacity: 20%;
+}
+
+@keyframes moveBackground {
+  0% {
+    transform: translateX(0px);
+  }
+  33% {
+    transform: translateX(300px);
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateX(-120px);
+  }
+  66% {
+    transform: translateX(-70px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+.title {
+  position: absolute;
+  top: 0px;
+  left: auto;
+  right: auto;
+  width: 1000px;
+  padding: 8px;
+  margin-top: 50px;
+  background-color: #f4e5d2;
+  transition: transform 0s ease-in-out;
+}
+.title:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px rgb(156, 143, 143);
+}
+
+.fi {
+  position: absolute;
+  top: 270px;
+  left: 575px;
+}
+.fish {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.fish:hover {
+  transform: scale(1.3);
+}
+
+.pe {
+  position: absolute;
+  top: 195px;
+  left: 195px;
+  margin: 20px;
+}
+
+.pear {
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  left: 30px;
+
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+
+.textbox.dancing {
+  position: absolute;
+}
+
+.pear:hover {
+  transform: scale(1.2);
+  transform: rotate(-10deg);
+}
+
+.sw {
+  position: absolute;
+  top: 260px;
+  left: 950px;
+}
+
+.sp {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.sp:hover {
+  transform: scale(1.4);
+}
+
+.app {
+  position: absolute;
+  top: 610px;
+  left: 340px;
+}
+.apple {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.apple:hover {
+  transform: scale(1.2);
+  transform: rotate(-30deg);
+}
+
+.shr {
+  position: absolute;
+  top: 250px;
+  left: 1680px;
+}
+
+.shrimp {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.shrimp:hover {
+  transform: scale(1.2);
+}
+
+.fg {
+  position: absolute;
+  top: 610px;
+  left: 1110px;
+}
+
+.fig {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.fig:hover {
+  transform: scale(1.2);
+  transform: rotate(-20deg);
+}
+
+.che {
+  position: absolute;
+  top: 620px;
+  left: 1470px;
+}
+.chestnut {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.chestnut:hover {
+  transform: scale(1.2);
+}
+
+.yu {
+  position: absolute;
+  top: 225px;
+  left: 1310px;
+}
+.yuzu {
+  width: 300px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.yuzu:hover {
+  transform: scale(1.2);
+  transform: rotate(5deg);
+}
+
+.to {
+  position: absolute;
+  top: 620px;
+  left: 730px;
+}
+.tomato {
+  width: 300px;
+  padding: 12px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible;
+}
+.tomato:hover {
+  transform: rotate(5deg);
+  transform: scale(1.2);
+}
